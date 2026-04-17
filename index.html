@@ -1,12 +1,160 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mis Proyectos</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mis Proyectos</title>
+  <link rel="shortcut icon" href="./images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand">
+        <div class="brand-logo">
+          <img src="./images/Logodark.png" alt="">
+        </div>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- CONTENIDO -->
+  <main class="main-content">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="badge">Hecho con krakedev <span></span></p>
+        <h2>Proyectos listos para mostrar</h2>
+        <p>
+          Mis primeros pasos con KrakeDev y Movilis
+        </p>
+      </div>
+      <div class="brands">
+        <img src="./images/krakedev.png" alt="">
+        <img src="./images/movilis.jpg" alt="">
+      </div>
+    </section>
+
+    <section class="brand-strip-section full-bleed">
+    <div class="brand-strip-box">
+        <div class="brand-strip strip-one">
+        <div class="brand-track">
+            <span>✦ Movilis Instituto Superior Tecnológico</span>
+            <span>✦ Movilis Instituto Superior Tecnológico</span>
+            <span>✦ Movilis Instituto Superior Tecnológico</span>
+            <span>✦ Movilis Instituto Superior Tecnológico</span>
+            <span>✦ Movilis Instituto Superior Tecnológico</span>
+            <span>✦ Movilis Instituto Superior Tecnológico</span>
+        </div>
+        </div>
+
+        <div class="brand-strip strip-two">
+        <div class="brand-track reverse">
+            <span>✦ KrakeDev Escuela de Programación</span>
+            <span>✦ KrakeDev Escuela de Programación</span>
+            <span>✦ KrakeDev Escuela de Programación</span>
+            <span>✦ KrakeDev Escuela de Programación</span>
+            <span>✦ KrakeDev Escuela de Programación</span>
+            <span>✦ KrakeDev Escuela de Programación</span>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="proyectos" class="projects-section">
+      <div class="section-title">
+        <a href="#proyectos">Explorar Proyectos</a>
+      </div>
+
+      <div class="cards-grid">
+        <article class="project-card modern-card">
+            <div class="card-top">
+            <div class="card-top-content">
+                <div class="card-top-text">
+                <span class="card-mini-brand">Stangic</span>
+                <ul class="card-features">
+                    <li>HTML y CSS base</li>
+                    <li>Canvas con JavaScript</li>
+                    <li>Movimiento e interacción</li>
+                    <li>Proyecto de práctica</li>
+                </ul>
+                </div>
+
+                <div class="card-preview">
+                <img src="./images/limones.png" alt="Juego Limones" class="card-image">
+                </div>
+            </div>
+            </div>
+
+            <div class="card-tech-strip">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            </div>
+
+            <div class="card-bottom">
+            <div class="card-bottom-text">
+                <p class="card-category">Proyecto Académico</p>
+                <h3>Juego Limones</h3>
+            </div>
+
+            <a href="https://juego-limones-olive.vercel.app/" target="_blank" class="card-arrow">
+                ↗
+            </a>
+            </div>
+        </article>
+
+        <article class="project-card modern-card">
+            <div class="card-top">
+            <div class="card-top-content">
+                <div class="card-top-text">
+                <span class="card-mini-brand">Stangic</span>
+                <ul class="card-features">
+                    <li>Canvas con JS</li>
+                    <li>Movimiento con teclado</li>
+                    <li>Detección básica</li>
+                    <li>Interacción dinámica</li>
+                </ul>
+                </div>
+
+                <div class="card-preview">
+                <img src="./images/gato.png" alt="Juego Cazando" class="card-image">
+                </div>
+            </div>
+            </div>
+
+            <div class="card-tech-strip">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            </div>
+
+            <div class="card-bottom">
+            <div class="card-bottom-text">
+                <p class="card-category">Mini Juego</p>
+                <h3>Juego Cazando</h3>
+            </div>
+
+            <a href="https://juego-cazando-beta.vercel.app/" target="_blank" class="card-arrow">
+                ↗
+            </a>
+            </div>
+        </article>
+        
+      </div>
+    </section>
+  </main>
+
 </body>
 </html>

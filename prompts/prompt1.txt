@@ -1,1 +1,3 @@
  Genera los siguientes archivos bases, un html con navbar que tenga un espacio de logo un espacio de opciones, el cuerpo en este momento sera solamente para los proyectos, en formato de cards, texto descriptivo o titulo, agreguemos un boton para ir a la url externa, y un css inicial para el estilo, hover para las imagenes de cards con animación y tambien cuidemos el responsive mobile para que todo quede acoplado.
+
+ -Agrega una seccion para brand y css inicial
